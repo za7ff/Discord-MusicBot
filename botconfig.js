@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ">", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", // Support Server Link
-  Token: process.env.Token || "", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", // Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
+  Token: process.env.Token || "ODk1MzM5NTIwMDkyOTMwMTE5.GnulU-.ImmKIsr_aMULXtNNGDRrwo3zDKigF3oCKrAWi0", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "a3cde406ad0e46f59041b34d751d8cfb", // Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "30fc632fba094f309d63699b56371f8e", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
   DefaultVolume: 100, // Sets the default volume of the bot, You can change this number anywhere from 1 to 9007199254740991 (JS Integer limit. If you do set it to that, you're a monster.)
